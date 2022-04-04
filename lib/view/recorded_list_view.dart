@@ -133,58 +133,7 @@ class _List_of_recordersState extends State<List_of_recorders> {
 
                   )
 
-                  // ExpansionTile(
-                  //   initiallyExpanded:_selectedIndex == i?true:false,
-                  //   title: Text(n[i]),
-                  //   subtitle: Text(_getDateFromFilePatah(
-                  //       filePath: widget.records.elementAt(i))),
-                  //   onExpansionChanged: ((newState) {
-                  //     if (newState) {
-                  //       setState(() {
-                  //         _selectedIndex = i;
-                  //       });
-                  //     }
-                  //   }),
-                  //   children: [
-                  //     Container(
-                  //       height: 116,
-                  //       padding: const EdgeInsets.all(10),
-                  //       child: Column(
-                  //         mainAxisAlignment: MainAxisAlignment.center,
-                  //         children: [
-                  //           Slider(
-                  //               value: _selectedIndex == i
-                  //                   ? _Postion.inSeconds.toDouble()
-                  //                   : 0,
-                  //               min: 0.0,
-                  //               max: _Duration.inSeconds.toDouble(),
-                  //               onChanged: (v) {
-                  //                 _seek(v.toInt());
-                  //               }),
-                  //           Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  //             children: [
-                  //               if(_selectedIndex==i)
-                  //             Text("${_Postion.inSeconds}:${_Postion.inMinutes}:${_Postion.inHours}"),
-                  //             IconButton(
-                  //               icon: _selectedIndex == i
-                  //                   ? _isPlaying
-                  //                   ? Icon(Icons.pause)
-                  //                   : Icon(Icons.play_arrow)
-                  //                   : Icon(Icons.play_arrow),
-                  //               onPressed: () => _onPlay(
-                  //                   filePath: widget.records.elementAt(i),
-                  //                   index: i),
-                  //             ),
-                  //             if(_selectedIndex==i)
-                  //             Text("${_Duration.inSeconds}:${_Duration.inMinutes}:${_Duration.inHours}"),
-                  //
-                  //           ],)
-                  //
-                  //         ],
-                  //       ),
-                  //     ),
-                  //   ],
-                  // ),
+
                 ),
               );
             },
