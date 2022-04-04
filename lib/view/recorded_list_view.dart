@@ -291,7 +291,7 @@ class _List_of_recordersState extends State<List_of_recorders> {
         });
       }
       else {
-        _audioPlayer.play(filePath, isLocal: true, position: _Postion,recordingActive: );
+        _audioPlayer.play(filePath, isLocal: true, position: _Postion, );
         setState(() {
           _isPlaying = true;
           _Postion = Duration(seconds: 0);

@@ -194,7 +194,6 @@ class _RecorderState extends State<Recorder> {
     await audioRecorder.start();
     PlayingRoute.EARPIECE;
 
-
     // await audioRecorder.current(channel: 0);
   }
 
